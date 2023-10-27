@@ -18,7 +18,7 @@ function read() {
     }
     return res;
   });
-  console.table(puzRes[0]);
+  return puzRes;
 }
 
 read();
@@ -27,8 +27,17 @@ read();
  * Возвращает игровое поле после попытки его решить.
  */
 function solve() {
+  const sudoku = read();
+  const sud1 = sudoku[0];
+
+  sud1.map((el, i) => {
+    const number = {}; 
+    if (el[i] !== '-') {
+      number[i,];
+    }
+  });
 }
-solve()
+solve();
 
 function isSolved() {
   /**
