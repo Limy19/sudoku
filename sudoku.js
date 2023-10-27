@@ -25,3 +25,4 @@ function prettyBoard() {
    * Подумай, как симпатичнее его вывести.
    */
 }
+// asddsd
